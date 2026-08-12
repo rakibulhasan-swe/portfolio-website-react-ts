@@ -1,0 +1,55 @@
+import type { ExperienceItemData } from '../types'
+
+export const experienceItems: ExperienceItemData[] = [
+  {
+    id: 'yogo-pos',
+    role: 'Frontend Developer',
+    company: 'YOGO POS · Remote',
+    employmentType: 'Remote',
+    period: '7 mos',
+    location: 'Surrey, BC, Canada · Remote',
+    bullets: [
+      'Worked remotely with a Canada-based restaurant POS company, contributing to their point-of-sale platform used by restaurants across Canada and the US',
+      'Built and maintained frontend features for order management and restaurant operations',
+    ],
+    skillsHighlight: 'React.js, JavaScript',
+    skillsRest: 'and more',
+    logoInitial: 'Y',
+    logoBg: '#0B3B2E',
+    logoColor: '#8FE64C',
+  },
+  {
+    id: 'solve-it',
+    role: 'Frontend Developer',
+    company: 'Solve IT · Full-time',
+    employmentType: 'Full-time',
+    period: 'Jul 2023 - Jul 2024 · 1 yr 1 mo',
+    location: 'Dhaka, Bangladesh · Remote',
+    bullets: [
+      'Developed a scalable Restaurant POS system using Next.js, Tailwind CSS, and Node.js',
+      'Implemented order management, billing, and table handling modules',
+    ],
+    skillsHighlight: 'Next.js, React.js',
+    skillsRest: 'and +6 skills',
+    logoInitial: 'S',
+    logoBg: '#1A1D3A',
+    logoColor: '#C7D2FE',
+  },
+  {
+    id: 'itcroc',
+    role: 'Frontend Developer',
+    company: 'itcroc · Internship',
+    employmentType: 'Internship',
+    period: 'Feb 2023 - Jun 2023 · 5 mos',
+    location: 'Dhaka, Bangladesh · Remote',
+    bullets: [
+      'Built responsive UI components using React and JavaScript',
+      'Collaborated with team to develop real-world web application features',
+    ],
+    skillsHighlight: 'React.js, JavaScript',
+    skillsRest: 'and +4 skills',
+    logoInitial: 'C',
+    logoBg: '#0E3A34',
+    logoColor: '#6FE0C6',
+  },
+]

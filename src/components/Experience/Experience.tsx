@@ -11,7 +11,7 @@ export function Experience() {
           Where I've Worked
         </Reveal>
         <Reveal as="p" className="section-intro">
-          Remote roles across Bangladesh and Canada, building POS systems and UI features in
+          Remote roles across Bangladesh and Canada, building software systems and UI features in
           production.
         </Reveal>
 

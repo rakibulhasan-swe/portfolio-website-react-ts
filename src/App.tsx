@@ -3,7 +3,7 @@ import { Contact } from './components/Contact/Contact'
 import { CustomCursor } from './components/CustomCursor/CustomCursor'
 import { Experience } from './components/Experience/Experience'
 import { Focus } from './components/Focus/Focus'
-import { Foundations } from './components/Foundations/Foundations'
+// import { Foundations } from './components/Foundations/Foundations'
 import { Footer } from './components/Footer/Footer'
 import { Header } from './components/Header/Header'
 import { Hero } from './components/Hero/Hero'
@@ -25,7 +25,7 @@ export default function App() {
         <Skills />
         <Projects />
         <ProblemSolving />
-        <Foundations />
+        {/* <Foundations /> */}
         <AISection />
         <Contact />
       </main>

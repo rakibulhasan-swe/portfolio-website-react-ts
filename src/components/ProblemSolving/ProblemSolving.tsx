@@ -3,9 +3,7 @@ import { problemSolvingJourney } from '../../data/foundations'
 import { useCodeforcesStats } from '../../hooks/useCodeforcesStats'
 import { Reveal } from '../Reveal/Reveal'
 
-// Last-known values, used as the initial render and as a fallback if the
-// live Codeforces API call fails (rate-limited, offline, handle renamed).
-// Update these occasionally so the fallback stays reasonably fresh.
+
 const CODEFORCES_FALLBACK = {
   rating: 1225,
   maxRating: 1225,
@@ -13,9 +11,6 @@ const CODEFORCES_FALLBACK = {
   solvedCount: 465,
 }
 
-// CodeChef has no official public API, so these stay manually maintained.
-// (codechef.com/users/<handle> doesn't expose a documented, CORS-enabled
-// endpoint the way Codeforces does — see https://codeforces.com/apiHelp.)
 const CODECHEF_STATS = {
   rating: 1518,
   maxRating: 1591,

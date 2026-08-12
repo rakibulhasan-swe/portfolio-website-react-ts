@@ -7,6 +7,13 @@ export const focusItems: FocusItemData[] = [
     title: 'Full-Stack Development',
     description: 'Building scalable web applications',
   },
+  
+  {
+    id: 'system-design',
+    icon: 'database',
+    title: 'System Design',
+    description: 'Load balancer, vertical vs horizontal scaling & more',
+  },
   {
     id: 'ai-integration',
     icon: 'sparkles',

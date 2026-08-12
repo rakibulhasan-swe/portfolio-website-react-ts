@@ -21,7 +21,7 @@ export function Contact() {
               LinkedIn ↗
             </a>
           )}
-          <a href="mailto:you@example.com" className="btn btn-ghost">
+          <a href="mailto:dev.rakibulhassan@gmail.com" className="btn btn-ghost">
             Email ↗
           </a>
         </Reveal>

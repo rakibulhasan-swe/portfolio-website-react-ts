@@ -11,9 +11,7 @@ export function Hero() {
           <span className="hl">.</span>
         </h1>
         <p className="lede">
-          Md. Rakibul Hasan — a full-stack JavaScript developer working across React, Node.js, and
-          MongoDB, strengthening CS fundamentals through DSA, and integrating AI where it actually
-          earns its place.
+          Md. Rakibul Hasan — A Software Engineer specializing in React, Next.js, Node.js, and AI-integrated applications. Built production POS systems, scalable dashboards, and modern web products.
         </p>
         <div className="btn-row">
           <a href="#work" className="btn btn-primary">

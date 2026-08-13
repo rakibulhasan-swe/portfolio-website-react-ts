@@ -27,6 +27,7 @@ export const aiFlowNodes: AiNodeData[] = [
   { id: 'llm-apis', label: 'LLM APIs', status: 'active' },
   { id: 'structured-outputs', label: 'Structured Outputs', status: 'active' },
   { id: 'rag', label: 'RAG', status: 'future' },
+  { id: 'langchain', label: 'LangChain', status: 'future' },
   { id: 'embeddings', label: 'Embeddings', status: 'future' },
   { id: 'ai-agents', label: 'AI Agents', status: 'future' },
   { id: 'production', label: 'Production Applications', status: 'future' },
